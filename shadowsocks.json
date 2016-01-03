@@ -5,6 +5,6 @@
     "local_port":1080,
     "password":"liangwei1234567890",
     "timeout":300,
-    "method":"chacha20",
+    "method":"salsa20",
     "fast_open": true
 }
