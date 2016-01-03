@@ -21,4 +21,3 @@ RUN chmod 755 /usr/local/bin/start.sh
 EXPOSE 25
 
 CMD ["sh", "-c", "start.sh"]
-https://github.com/jedisct1/libsodium/releases/download/1.0.1/libsodium-1.0.1.tar.gz
