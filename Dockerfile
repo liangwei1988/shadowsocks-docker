@@ -21,4 +21,4 @@ RUN chmod 755 /usr/local/bin/start.sh
 EXPOSE 25
 
 #CMD ["sh", "-c", "start.sh"]
-ENTRYPOINT ["ssserver","-c","/etc/shadowsocks.json","-d","start"]
+ENTRYPOINT ["ssserver","-c","/etc/shadowsocks.json"]
