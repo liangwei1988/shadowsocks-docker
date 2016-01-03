@@ -8,9 +8,9 @@ RUN apt-get -qq update && \
 RUN pip install shadowsocks
 
 #add chacha20
-RUN wget https://download.libsodium.org/libsodium/releases/LATEST.tar.gz && \
-    tar zxf LATEST.tar.gz && \
-    cd libsodium* && \
+RUN wget https://github.com/jedisct1/libsodium/releases/download/1.0.1/libsodium-1.0.1.tar.gz && \
+    tar xf libsodium-1.0.1.tar.gz && \
+    cd libsodium-1.0.1 && \
     ./configure && make -j2 && make install && \
     ldconfig
 
