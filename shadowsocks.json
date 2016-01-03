@@ -5,6 +5,6 @@
     "local_port":1080,
     "password":"liangwei1234567890",
     "timeout":300,
-    "method":"salsa20",
+    "method":"aes-256-cfb",
     "fast_open": true
 }
